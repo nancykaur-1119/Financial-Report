@@ -1,0 +1,112 @@
+ISM REPORT — COMPLETE COLUMN → FIELD MAPPING
+==============================================
+Jira Instance : enreap.atlassian.net
+Last Updated  : 2026-06-16
+
+Legend
+------
+  System Field  : Standard Jira field, always present on every issue (not a custom field)
+  customfield_* : Jira custom field — must be explicitly fetched from the API
+  CALC          : Computed in UI from one or more fields — no API call needed
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION A — ISM TICKET  (rowSpan: one value per ISM ticket)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Col  UI Column Name                    Field Type      Field ID / Name                                        Formula
+---  --------------------------------  ----------      -----------------------------------------------        -------
+ 1   ISM Issue                         System Field    key
+ 2   Issue Name                        System Field    summary
+ 3   Created Date                      System Field    created
+ 4   PO Date                           customfield     customfield_16311  →  Claim Date
+ 5   PO Amount                         customfield     customfield_12684  →  PO Amount
+ 6   Status                            System Field    status.name
+ 7   Resolution                        System Field    resolution.name
+ 8   Service Amount                    customfield     customfield_10383  →  Service Amount
+ 9   Sales Invoice Creation Date       customfield     customfield_11377  →  Sales Invoice Creation Date
+10   % Billed Till Date                CALC            —                                                       totalInvoiced  /  Service Amount
+                                                                                                               ( SUM customfield_11366  /  customfield_10383 )
+11   Cummulative Billing on Project    CALC/SUM        customfield_11995  →  Invoice Amount in USD             Sum of Invoice Amount in USD Excluding Tax across all linked FIN tickets
+                                                       (Excluding Tax)                                         SUM of customfield_11995 from all FIN tickets
+12   Cummulative Billing INR           CALC/SUM        customfield_11366  →  Invoice Amount in local           Sum of Invoice Amount in local currency Without Tax across all linked FIN tickets
+                                                       currency (Without Tax)                                  SUM of customfield_11366 from all FIN tickets
+13   Billed Till Date                  CALC/SUM        customfield_11995  →  Invoice Amount in USD             Sum of Invoice Amount in USD Excluding Tax across all linked FIN tickets
+                                                       (Excluding Tax)                                         SUM of customfield_11995 from all FIN tickets
+14   % Billing Done                    CALC            —                                                       Invoiced Amount in USD  /  Service Amount
+                                                                                                               ( SUM customfield_11995  /  customfield_10383 )
+15   Check for Revenue against PO      CALC            —                                                       Total Earned Amount ($)  /  Service Amount
+                                                                                                               ( SUM customfield_12322  /  customfield_10383 )
+16   Check for billing against PO      CALC            —                                                       Invoice Amount in USD  /  Service Amount
+                                                                                                               ( SUM customfield_11995  /  customfield_10383 )
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION B — PRJ / AUS  (per linked PRJ-* or AUS-* issue)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Col  UI Column Name                    Field Type      Field ID / Name                                        Formula
+---  --------------------------------  ----------      -----------------------------------------------        -------
+17   Linked Issue                      System Field    key
+18   Issue Type                        System Field    issuetype.name
+19   Planned Project Start Date        customfield     customfield_10800  →  Project Start
+20   Planned Project End Date          customfield     customfield_10801  →  Project End
+21   Efforts Planned Hours             customfield     customfield_12458  →  Total Planned Hours
+22   Billing Rate                      customfield     customfield_10942  →  Billing Rate
+23   Total Earned Hours                customfield     customfield_12322  →  Total Earned Amount ($)
+24   Hours Consumed Till Date          CALC            —                                                       Total Earned Amount ($) / Billing Rate
+                                                                                                               customfield_12322  /  customfield_10942
+25   % Completion Till Date            CALC            —                                                       ( Total Earned Amount ($) / Total Planned Hours )
+                                                                                                               ( customfield_12322  /  customfield_12458 )
+26   Unbilled Till Date                customfield     customfield_12459  →  Non Accrued Hours
+27   Cummulative Consumed Hours        customfield     customfield_12322  →  Total Earned Hours                Same value as col 23 — Total Earned Hours
+28   Updated Remaining Hours           CALC            —                                                       Total Planned Hours  −  Total Earned Amount ($)
+                                                                                                               customfield_12458  −  customfield_12322
+29   Updated Total Estimated Hours     CALC            —                                                       Total Planned Hours  −  Total Earned Amount ($)
+                                                                                                               customfield_12458  −  customfield_12322
+30   % Completetion Till Date          CALC            —                                                       ( Total Earned Amount ($) / Total Planned Hours )
+                                                                                                               ( customfield_12322  /  customfield_12458 )
+31   Unbilled in INR                   CALC            —                                                       Non Accrued Hours  ×  Billing Rate
+                                                                                                               customfield_12459  ×  customfield_10942
+32   Revenue this month FX             customfield     customfield_12321  →  Earned Amount ($)
+33   Recovery Rate this month          CALC            —                                                       Invoice Amount in USD  /  ( Invoice Amount in USD + Total Non Accruable Amount ($) )
+                                                                                                               rowInvoicedUSD  /  ( rowInvoicedUSD  +  customfield_12326 )
+34   Revised Recovery Rate till Date   CALC            —                                                       Invoice Amount in USD  /  ( Invoice Amount in USD + Total Non Accruable Amount ($) )
+                                                                                                               rowInvoicedUSD  /  ( rowInvoicedUSD  +  customfield_12326 )
+35   Total Earned Amount ($)           customfield     customfield_12322  →  Total Earned Amount ($)           Same value as col 23 — individual PRJ/AUS earned amount
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION C — FIN  (per linked FIN-* ticket)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Col  UI Column Name                    Field Type      Field ID / Name                                        Formula
+---  --------------------------------  ----------      -----------------------------------------------        -------
+36   Linked FIN Ticket                 System Field    key
+37   Invoiced Amount USD (Excl. Tax)   customfield     customfield_11366  →  Invoice Amount in local
+                                                       currency (Without Tax)
+38   Billed This Month FX              customfield     customfield_11995  →  Invoice Amount in USD
+                                                       (Excluding Tax)
+39   Billed in Month INR               customfield     customfield_11366  →  Invoice Amount in local           Same value as col 37
+                                                       currency (Without Tax)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  QUICK REFERENCE — ALL CUSTOM FIELDS USED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+customfield_10383   Service Amount                              ISM
+customfield_16311   Claim Date                                  ISM
+customfield_12684   PO Amount                                   ISM
+customfield_11377   Sales Invoice Creation Date                 ISM
+customfield_10800   Project Start                               PRJ/AUS
+customfield_10801   Project End                                 PRJ/AUS
+customfield_12458   Total Planned Hours                         PRJ/AUS
+customfield_10942   Billing Rate                                PRJ/AUS
+customfield_12322   Total Earned Amount ($)                     PRJ/AUS
+customfield_12459   Non Accrued Hours                           PRJ/AUS
+customfield_12326   Total Non Accruable Amount ($)              PRJ/AUS
+customfield_12321   Earned Amount ($)                           PRJ/AUS
+customfield_11366   Invoice Amount in local currency            FIN
+                    (Without Tax)
+customfield_11995   Invoice Amount in USD (Excluding Tax)       FIN

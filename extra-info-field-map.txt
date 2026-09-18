@@ -1,0 +1,162 @@
+EXTRA INFO REPORT — COLUMN → CUSTOM FIELD → JIRA FIELD NAME MAPPING
+====================================================================
+Jira Instance : enreap.atlassian.net
+Verified      : 2026-08-25 (against ISM-82091/FIN-5185, ISM-82727/FIN-6180,
+                 ISM-83504/FIN-6189, ISM-82839/FIN-5250+FIN-5289,
+                 ISM-82237 [no FIN], ISM-83701 [Service ticket], ISM-84077 [Duplicate])
+Reflects code in : api/server.js (EXTRA_INFO_ISM_FIELDS / EXTRA_INFO_FIN_FIELDS)
+
+HOW A ROW IS BUILT
+--------------------
+Each row starts from one ISM ticket, matched by:
+  project = ISM AND resolved >= <fromDate> AND resolved <= <toDate>
+  ORDER BY cf[16311] DESC
+(no status/resolution filter — see NOTE ON SCOPE below)
+
+Then the linked FIN ticket is found one of two ways:
+  1. Reselling pattern : FIN linked DIRECTLY on the ISM ticket's issuelinks.
+  2. Service pattern    : no direct FIN link — the ISM ticket's linked PRJ-/AUS-
+                          tickets are checked instead, and THEIR issuelinks are
+                          searched for a FIN- key.
+  If neither path finds a FIN ticket (e.g. ISM-82237, ISM-84077), the row is
+  still emitted with all FIN-sourced columns blank — this is expected, not a bug,
+  when the ISM ticket genuinely has no linked FIN ticket in Jira.
+
+NOTE ON SCOPE
+---------------
+The JQL has no status/resolution filter, so it also picks up tickets resolved
+as e.g. "Duplicate" or "Won't Fix" — these typically have most fields blank/zero
+because they were abandoned before financial data was entered (see ISM-84077).
+
+IMPORTANT — SHARED FIELD IDS, ISM vs FIN SIDE CAN DIFFER
+----------------------------------------------------------
+Many of these custom field IDs are configured on BOTH the ISM and FIN projects
+independently, and are NOT guaranteed to hold the same value on both sides.
+
+  Confirmed to differ (business decision made: use ISM — see history log on
+  ISM-82091, which shows these were once equal to FIN's frozen values and later
+  updated only on the ISM side):
+    License Amount ($), Profitability, Invoice Amount in local currency (Without Tax)
+
+  Confirmed populated on BOTH sides with the SAME value in every sample checked
+  (no conflict, either side would work — FIN kept for these since that's where
+  the finance team enters them):
+    Company Name, Billing Entity, Billing Frequency, OEM Purchase Amount ($),
+    Segment BU, Market Team
+
+CASCADING (PARENT + CHILD) SELECT FIELDS
+------------------------------------------
+Exchange Rate Type, Market type, OEM, and Region code are Jira "cascading
+select" fields — the API returns {value, child:{value}}, and the correct
+display value is "Parent - Child" (e.g. "India - INR per USD"). Reading only
+the parent silently drops the child (fixed via api/server.js's pickCascading()).
+
+Legend
+------
+  System field : built-in Jira field, not a custom field (id/key/summary/status.name)
+  Derived      : not a raw field — computed from issuelinks (linked issue key)
+
+NOTE ON DUPLICATE FIELD NAMES
+------------------------------
+Three of these column names have more than one custom field in Jira sharing the
+exact same label. The field ID below is the one confirmed (via live data) to
+actually hold the real value; the other duplicate is listed as a comment so it
+isn't picked by mistake later.
+
+  OEM         → customfield_11092 (confirmed)   [decoy: customfield_11054, unused]
+  Segment BU  → customfield_11384 (confirmed)   [decoy: customfield_11303, unused]
+  Market Team → customfield_11373 (confirmed)   [decoys: customfield_11304 "Market Team.",
+                                                  customfield_14243 "Market Team_" — different labels, not real dupes]
+
+
+FORMAT: Column Name | Custom Field ID | Field Name in Jira | Source
+------------------------------------------------------------------------
+
+Issue key                                       | ---                | key                                    | ISM (system field)
+Issue id                                        | ---                | id                                     | ISM (system field)
+Company Name                                    | customfield_10225  | Company Name                          | FIN
+Summary                                         | ---                | summary                                | ISM (system field)
+Billing Entity                                  | customfield_11055  | Billing Entity                         | FIN
+Billing Frequency                               | customfield_11415  | Billing Frequency                      | FIN
+Billing Type                                    | customfield_11729  | Billing Type                           | ISM
+Revenue Stream                                  | customfield_11077  | Revenue Stream                         | ISM
+License Amount ($)                              | customfield_10428  | License Amount ($)                    | ISM (was FIN — switched per decision)
+OEM Purchase Amount ($)                         | customfield_11364  | OEM Purchase Amount ($)                | FIN
+Profitability                                   | customfield_10479  | Profitability                          | ISM (was FIN — switched per decision)
+DF Amount ($)                                   | customfield_11827  | DF Amount ($)                          | ISM (0 when unset)
+DR Amount ($)                                   | customfield_11826  | DR Amount ($)                          | ISM (0 when unset)
+DR/Rebate/DF Amount ($)                         | customfield_12028  | DR/Rebate/DF Amount ($)                | ISM (0 when unset)
+PVR Amount ($)                                  | customfield_15167  | PVR Amount ($)                         | FIN
+Services Amount ($)                             | customfield_10383  | Services Amount ($)                   | FIN
+                                                                       (same field ID as "Service Amount" used
+                                                                        on ISM tickets elsewhere in this app)
+Forex Exchange Rate                             | customfield_14721  | Forex Exchange Rate                   | ISM (text field, not numeric)
+Exchange Rate Type                              | customfield_14532  | Exchange Rate Type                    | ISM (CASCADING — "Parent - Child")
+Forex Mark Up (INR)                             | customfield_12193  | Forex Mark Up (INR)                   | ISM
+Market Team                                     | customfield_11373  | Market Team                           | FIN
+Market type                                     | customfield_11074  | Market type                           | ISM (CASCADING — "Parent - Child")
+OEM                                             | customfield_11092  | OEM                                    | ISM (CASCADING — "Parent - Child")
+Segment BU                                      | customfield_11384  | Segment BU                            | FIN
+Geo                                             | customfield_11134  | Geo                                    | ISM
+Region and Sub-Region                           | customfield_11085  | Region code                            | ISM (CASCADING — NOT
+                                                                       customfield_10789 "Region and Sub-Region",
+                                                                       which is unused/always null)
+Claim Date                                      | customfield_16311  | Claim Date                             | ISM
+FIN                                             | ---                | issuelinks (key starting "FIN-")      | Derived — direct link on ISM
+                                                                       (Reselling), or via linked PRJ-/AUS-
+                                                                       ticket's issuelinks (Service)
+Invoice Amount in local currency (Without Tax)  | customfield_11366  | Invoice Amount in local currency      | ISM (was FIN — switched per decision)
+                                                                       (Without Tax)
+Status                                          | ---                | status.name                            | ISM (system field)
+
+
+QUICK REFERENCE — ALL CUSTOM FIELD IDS USED (Extra Info report)
+------------------------------------------------------------------
+Each row also shows whether Jira has any OTHER custom field sharing the exact
+same name (a real decoy that could be picked by mistake) — checked against the
+full field list in jira-fields.txt on 2026-08-25.
+
+ISM-sourced:
+  customfield_11077   Revenue Stream                                    — no duplicate name in Jira
+  customfield_11729   Billing Type                                      — no duplicate name in Jira
+  customfield_11827   DF Amount ($)                                     — no duplicate name in Jira
+  customfield_11826   DR Amount ($)                                     — no duplicate name in Jira
+  customfield_12028   DR/Rebate/DF Amount ($)                           — no duplicate name in Jira
+  customfield_14721   Forex Exchange Rate                               — no duplicate name in Jira
+  customfield_14532   Exchange Rate Type          (cascading)           — no duplicate name in Jira
+  customfield_12193   Forex Mark Up (INR)                               — no duplicate name in Jira
+  customfield_11074   Market type                 (cascading)           — no duplicate name in Jira
+  customfield_11092   OEM                          (cascading)          — DUPLICATE: customfield_11054 "OEM" also exists, unused/unpopulated
+  customfield_11134   Geo                                               — no duplicate name in Jira
+  customfield_11085   Region code                  (cascading)          — no duplicate name in Jira
+  customfield_10479   Profitability                                     — no duplicate name in Jira
+  customfield_10428   License Amount ($)                                — no duplicate name in Jira
+  customfield_11366   Invoice Amount in local currency (Without Tax)    — no duplicate name in Jira
+  customfield_16311   Claim Date                                        — no duplicate name in Jira
+
+  Similarly-named but DIFFERENT fields (not real duplicates — different labels,
+  so Jira/the API never confuses them with the ones above):
+    customfield_13126   MOS Revenue Stream            (vs. "Revenue Stream")
+    customfield_12950   MDF Amount                    (vs. "DF Amount ($)")
+    customfield_13124   MOS OEM                        (vs. "OEM")
+    customfield_13120   MOS Geo                        (vs. "Geo")
+    customfield_13119   MOS Region Code                (vs. "Region code")
+    customfield_11137   Market Type Parent             (vs. "Market type")
+    customfield_12556   Invoice Forex Mark Up          (vs. "Forex Mark Up (INR)")
+    customfield_12572   Total Collection Forex Mark Up (vs. "Forex Mark Up (INR)")
+    customfield_16304   DT License Amount              (vs. "License Amount ($)")
+    customfield_16309   License Amount In Local Currency (vs. "License Amount ($)")
+    customfield_12002   Monthly License Amount ($)     (vs. "License Amount ($)")
+    customfield_16301   ST License Amount              (vs. "License Amount ($)")
+    customfield_11993   Invoice Amount in local currency (Including Tax) (vs. "...Without Tax")
+    customfield_12884   MDF Claim Date                 (vs. "Claim Date")
+
+FIN-sourced:
+  customfield_10225   Company Name
+  customfield_11055   Billing Entity
+  customfield_11415   Billing Frequency
+  customfield_11364   OEM Purchase Amount ($)
+  customfield_15167   PVR Amount ($)
+  customfield_10383   Services Amount ($)
+  customfield_11373   Market Team
+  customfield_11384   Segment BU

@@ -1,0 +1,29 @@
+modules:
+  jira:globalPage:
+    - key: forge-projects-ui-global-page
+      title: Finance Report
+      resource: main
+      resolver:
+        function: resolver
+
+  function:
+    - key: resolver
+      handler: resolvers/index.handler
+
+resources:
+  - key: main
+    path: static/projects-app/dist
+    tunnel:
+      port: 5173
+
+permissions:
+  external:
+    fetch:
+      backend:
+        - https://enreap.atlassian.net
+        - https://enreap-sandbox4.atlassian.net
+
+app:
+  id: ari:cloud:ecosystem::app/07e00b2d-62c7-4435-8439-5320bd4017c0
+  runtime:
+    name: nodejs22.x

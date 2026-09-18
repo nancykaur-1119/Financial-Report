@@ -1,0 +1,1562 @@
+customfield_10707                    Employee Name
+customfield_10825                   [CHART] Date of First Response
+customfield_10101                   [CHART] Time in Status
+customfield_10666                   10th Board
+customfield_10696                   10th Passing Year
+customfield_10667                   12th Board
+customfield_10697                   12th Passing Year
+customfield_11041                   3rd Party Integrations
+customfield_10702                   Aadhar Number
+customfield_10282                   Acceptance Criteria
+customfield_10338                   Access Category
+customfield_10889                   Accolades Discription
+customfield_10888                   Accolades Raised
+customfield_10890                   Accolades Summary
+customfield_10298                   Accomplishments
+customfield_10215                   Account
+customfield_14756                   Account Details
+customfield_13561                   Account Holder Name
+customfield_13565                   Account No
+customfield_13278                   Account owner
+customfield_10941                   Account Processor
+customfield_14343                   Account Types
+customfield_12755                   Accountable
+customfield_12195                   Accrued Amount ($)
+customfield_12578                   Accrued Amount Currency Type
+customfield_14105                   Accrued Delivery Date
+customfield_12453                   Accrued Hours
+customfield_10385                   Achieved ROI (Lead Value)
+customfield_10376                   Achieved ROI (No of Leads)
+customfield_14755                   ACM-Parent
+customfield_12949                   Activity Type
+customfield_12157                   Actual
+customfield_11728                   Actual Collection Amount
+customfield_12000                   Actual Collection Amount in USD
+customfield_11424                   Actual Collection Amount1
+customfield_11465                   Actual Collection Amount2
+customfield_11466                   Actual Collection Amount3
+customfield_12557                   Actual Collection Conversion Rate 1
+customfield_12558                   Actual Collection Conversion Rate 2
+customfield_12559                   Actual Collection Conversion Rate 3
+customfield_11999                   Actual Collection Currency Type
+customfield_11800                   Actual Collection Date
+customfield_11374                   Actual Collection Date1
+customfield_11463                   Actual Collection Date2
+customfield_11464                   Actual Collection Date3
+customfield_11996                   Actual Collection Exchange Rate 1
+customfield_11997                   Actual Collection Exchange Rate 2
+customfield_11998                   Actual Collection Exchange Rate 3
+customfield_10950                   Actual Cost of Resource
+customfield_10465                   Actual Efforts(In Hours)
+customfield_10490                   Actual End Date
+customfield_14481                   Actual Milestone End Date
+customfield_14480                   Actual Milestone Start Date
+customfield_13781                   Actual OEM Due Date
+customfield_10953                   Actual Project Cost
+customfield_14479                   Actual Project End Date
+customfield_14478                   Actual Project Start Date
+customfield_10485                   Actual Start Date
+customfield_10475                   Add Participant
+customfield_10540                   Add Voters
+customfield_10378                   Added Campaign Responses
+customfield_10368                   Added CRM contacts
+customfield_10387                   Added Leads
+customfield_11301                   Additional Contacts
+customfield_10914                   Additional Hours
+customfield_10591                   Additional Implementors
+customfield_10743                   Additional Offering Codes
+customfield_10539                   Additional Reviewers
+customfield_11071                   Address
+customfield_10402                   Addteq's Expected Cost(USD)
+customfield_10797                   Administrator
+customfield_10600                   Adoption
+customfield_10515                   Advance Amount
+customfield_10573                   Affected hardware
+customfield_10556                   Affected services
+versions                            Affects versions
+customfield_10630                   Agenda
+customfield_10821                   All Child Issues Closed
+customfield_10903                   Amount
+customfield_10512                   Amount (in $)
+customfield_10611                   Amount (INR)
+customfield_16305                   Amount After Discount
+customfield_10460                   Amount Received
+customfield_14833                   AOP Product
+customfield_11422                   AP Transaction Number 1
+customfield_11426                   AP Transaction Number2
+customfield_11427                   AP Transaction Number3
+customfield_10883                   APM Ticket ID
+customfield_10601                   Application
+customfield_10651                   Approval Amount
+customfield_10207                   Approvals
+customfield_13188                   Approved & assigned Actual End Date
+customfield_13189                   Approved & Assigned Approved By
+customfield_13186                   Approved & assigned End Date
+customfield_13185                   Approved & assigned Start Date
+customfield_13187                   Approved & assignedActual Start Date
+customfield_12885                   Approved Amount
+customfield_13811                   Approved Date
+customfield_10568                   Approver groups
+customfield_10003                   Approvers
+customfield_10243                   Approvers (migrated)
+customfield_10654                   Approvers of Account Team
+customfield_10790                   Approvers of Leadership Team
+customfield_11381                   AR - Overdue in days
+customfield_11369                   Are you uploading documents?
+customfield_10690                   Area of Interest/Hobbies (Any 2)
+customfield_11234                   ASQL Created
+customfield_11100                   ASQL Lost Date
+customfield_13777                   Assigned to Delivery Date
+assignee                            Assignee
+customfield_10909                   Association Count
+customfield_10427                   Association Coverage
+customfield_10910                   Associations
+customfield_10340                   Assumptions
+customfield_10640                   Atlassian Cloud Product/s
+customfield_11269                   Atlassian project
+customfield_11270                   Atlassian project status
+attachment                          Attachment
+customfield_10901                   Audience
+customfield_13814                   Audience Type
+customfield_11089                   Authority
+customfield_10430                   Auto close
+customfield_10812                   Auto-Plan to Customer Project
+customfield_10283                   Automated Test
+customfield_12391                   Avg Account Payable
+customfield_11929                   Avg Account Receivable
+customfield_11420                   Awaiting Invoice
+customfield_13780                   Awaiting Sales Date
+customfield_11421                   Awaiting Sales Input
+customfield_11958                   Backlog Created Date
+customfield_10577                   Backout plan
+customfield_10721                   Band
+customfield_13560                   Bank - Details	
+customfield_13872                   Bank Account Number
+customfield_13563                   Bank Branch
+customfield_12564                   Bank Name
+customfield_11927                   Bank Rate (Selling)
+customfield_10364                   BANT
+customfield_10720                   Base Location
+customfield_14516                   Base Rate
+customfield_10459                   Baseline end date
+customfield_10458                   Baseline start date
+customfield_11101                   BD funnel Updated date
+customfield_11170                   Begin Date
+customfield_10259                   Best Suited for
+customfield_10781                   Billable
+customfield_13544                   Billing Address
+customfield_10606                   Billing Cycle
+customfield_11055                   Billing Entity
+customfield_11415                   Billing Frequency
+customfield_10942                   Billing Rate
+customfield_11729                   Billing Type
+customfield_10676                   Blood Group
+customfield_13514                   Board Approver
+customfield_13509                   Board Resolution Date
+customfield_11501                   BR Drill Down Details
+customfield_11496                   BR ID
+customfield_10346                   Branding
+customfield_11087                   Budget
+customfield_13820                   Budget Range / Indicative Value
+customfield_13824                   Budgetary Indication
+customfield_10334                   Bug Category
+customfield_10234                   Build Number
+customfield_11500                   Business Impact
+customfield_13135                   Business Solutioning Actual End Date
+customfield_13134                   Business Solutioning Actual Start Date
+customfield_13136                   Business Solutioning Approved By
+customfield_13133                   Business Solutioning End Date
+customfield_13132                   Business Solutioning Start Date
+customfield_11053                   Business Type
+customfield_10500                   Business Value
+customfield_10268                   Buying Decision Makers
+customfield_10453                   CAB
+customfield_10991                   CAB Discussion
+customfield_10904                   Campaign assets
+customfield_10347                   Campaign Cost Comments
+customfield_10423                   Campaign Design Comments
+customfield_10357                   Campaign Duration
+customfield_13049                   Campaign Focus
+customfield_10902                   Campaign goals
+customfield_10375                   Campaign Name
+customfield_10409                   Campaign objective
+customfield_10417                   Campaign Type
+customfield_10900                   Campaign type
+customfield_10558                   Category
+customfield_10844                   Category
+customfield_11045                   Category / Responsibility / Roles
+customfield_10920                   Cc
+customfield_12421                   CCC
+customfield_14640                   CCC Check
+customfield_11628                   CCC1
+customfield_11630                   CCC2
+customfield_14636                   CCC2 DSO
+customfield_14410                   CCC2 Milestone %
+customfield_14411                   CCC2 Milestone Weighted Average
+customfield_11631                   CCC3
+customfield_14637                   CCC3 DSO
+customfield_14642                   CCC3 Milestone %
+customfield_14641                   CCC3 Milestone Wieghted Average
+customfield_11632                   CCC4
+customfield_14638                   CCC4 DSO
+customfield_14645                   CCC4 Milestone %
+customfield_14647                   CCC4 Milestone Weighted Average
+customfield_11470                   CCC5
+customfield_14639                   CCC5 DSO
+customfield_14646                   CCC5 Milestone %
+customfield_14648                   CCC5 Milestone Weighted Average
+customfield_11859                   CCC7
+customfield_11201                   Change Approver
+customfield_11199                   Change Category
+customfield_10009                   Change completion date
+customfield_10454                   Change completion date (migrated)
+customfield_11066                   Change Implementor
+customfield_11200                   Change Initiator
+customfield_10451                   Change managers
+customfield_10007                   Change reason
+customfield_10450                   Change reason (migrated)
+customfield_10425                   Change Request
+customfield_10916                   Change Request Raised
+customfield_10993                   Change Request Type
+customfield_10006                   Change risk
+customfield_10448                   Change risk (migrated)
+customfield_10008                   Change start date
+customfield_10452                   Change start date (migrated)
+customfield_10005                   Change type
+customfield_10446                   Change type (migrated)
+customfield_10422                   Channel
+customfield_11081                   channel Function
+customfield_11082                   Channel Modality
+customfield_11070                   City
+customfield_16311                   Claim Date
+customfield_11417                   Client Acknowledgement Date
+customfield_11056                   Client Location
+customfield_10229                   Client Name
+customfield_11663                   Client Name (WhatsApp)
+customfield_10487                   Client Requirement Summary
+customfield_13203                   Closed Actual End Date
+customfield_13202                   Closed Actual Start Date
+customfield_13201                   Closed End Date
+customfield_13204                   Closed Stage Approved By
+customfield_13200                   Closed Start Date
+customfield_12390                   Closing Account Payable
+customfield_11928                   Closing Account Receivable
+customfield_10939                   Closure Date
+customfield_11008                   Cloud Bitbucket Implementation
+customfield_11031                   Cloud Bitbucket Plugin Development Knowledge
+customfield_11009                   Cloud Bitbucket Support
+customfield_11007                   Cloud Confluence Implementation
+customfield_11029                   Cloud Confluence Plugin Development Knowledge
+customfield_11006                   Cloud Confluence Support
+customfield_11025                   Cloud Development Experience
+customfield_11003                   Cloud Experience
+customfield_11005                   Cloud Jira Implementation
+customfield_11004                   Cloud Jira Support
+customfield_11026                   Cloud Jira/JSM Plugin Development Knowledge
+customfield_10502                   Collections Owner
+customfield_10607                   Comment
+comment                             Comment
+customfield_11272                   Comments
+customfield_14687                   Commit To Readiness
+customfield_10751                   Committed FTE
+customfield_10550                   Company
+customfield_11300                   Company Domain
+customfield_11299                   Company Legal Name
+customfield_11068                   Company Linkedin URL
+customfield_10225                   Company Name
+customfield_13558                   Company Registration Number
+customfield_13778                   Completed Delivery Date
+customfield_13972                   Completion Actual End Date
+customfield_13163                   Completion Approved by
+customfield_13162                   Completion End date
+customfield_14004                   Completion Start date
+customfield_13515                   Compliance Approver
+customfield_10823                   Compliance review scope
+components                          Components
+customfield_10244                   Components Lead
+customfield_10266                   Concept Priority
+customfield_10275                   Concept Status
+customfield_10260                   Concept Submitted By
+customfield_10848                   Confidence
+customfield_13819                   Confirmed Amount OR
+customfield_12783                   consequence
+customfield_10551                   Contact
+customfield_14759                   Contact Details
+customfield_10704                   Contact Number in case of Emergency
+customfield_13547                   Contact Person
+customfield_13551                   Contacts Email
+customfield_13552                   Contacts Phone
+customfield_10637                   Content Approver
+customfield_10405                   Content Creation
+customfield_10388                   Content Lead
+customfield_13313                   Content POC
+customfield_10397                   Content Type
+customfield_10398                   Content Writer
+customfield_10856                   Contract Name
+customfield_13569                   Contract Type
+customfield_10565                   Contributor
+customfield_10218                   Conversion Probability
+customfield_10476                   Conversion Rate
+customfield_10978                   Cost
+customfield_10787                   Cost Allocation
+customfield_10615                   Cost Centre
+customfield_13059                   Cost of Event / Total Activity Cost
+customfield_11529                   Cost Price (Pay to OEM)
+customfield_10372                   Cost to Addteq (USD)
+customfield_13060                   Cost to Enreap
+customfield_10382                   Cost to OEM (USD)
+customfield_12622                   Cost(Actual)
+customfield_12621                   Cost(Plan)
+customfield_10875                   Countersign Status
+customfield_15134                   Country
+customfield_11502                   CR ID
+customfield_10897                   Create Case Study
+customfield_10532                   Create Epics
+customfield_10987                   Create TechCafe
+customfield_10986                   Create Testimonial
+created                             Created
+customfield_10370                   Creative Brief
+creator                             Creator
+customfield_10413                   CRM Company Filled(Y/N)
+customfield_10353                   CRM Test
+customfield_10495                   Cross Sell Participation Level
+customfield_13512                   CS Approval Date
+customfield_13513                   CS Approver
+customfield_12580                   CSAT (Customer Satisfaction)
+customfield_12031                   Cumulative Amount
+customfield_13377                   Currency Impact
+customfield_12585                   Currency Type
+customfield_10287                   Current & Expected Development Plan for Q1
+customfield_10293                   Current & Expected Development Plan for Q2
+customfield_10299                   Current & Expected Development Plan for Q3
+customfield_10305                   Current & Expected Development Plan for Q4
+customfield_12817                   Current End Date
+customfield_13807                   Current Environment
+customfield_10269                   Current Owner
+customfield_11265                   Customer Budget ($)
+customfield_11595                   Customer Due date
+customfield_10230                   Customer Email
+customfield_11398                   Customer Email ID (CC)
+customfield_11397                   Customer Email ID (To)
+customfield_10217                   Customer Note
+customfield_11440                   Customer Purchase Terms
+customfield_11497                   Customer Requirement
+customfield_10839                   Customer segments
+customfield_10896                   Customer Sign-off
+customfield_11503                   Customer Type
+customfield_10277                   Customer Value
+customfield_10970                   customfield_10246
+customfield_10733                   customfield_10493
+customfield_10971                   customfield_10493
+customfield_12567                   Cutomer approval Attachment
+customfield_12584                   Cutomer approval evidence
+customfield_12256                   Cycle Time
+customfield_10674                   Date of Birth
+customfield_10560                   Date Of Joining
+customfield_12818                   Date Varience
+customfield_14515                   Day
+customfield_11016                   DC Bitbucket Implementation
+customfield_11032                   DC Bitbucket Plugin Development Knowledge
+customfield_11013                   DC Bitbucket Support
+customfield_11015                   DC Confluence Implementation
+customfield_11030                   DC Confluence Plugin Development Knowledge
+customfield_11012                   DC Confluence Support
+customfield_11027                   DC Development Experience
+customfield_11010                   DC Experience
+customfield_11014                   DC Jira Implementation
+customfield_11011                   DC Jira Support
+customfield_11028                   DC Jira/JSM Plugin Development Knowledge
+customfield_10818                   Deal Size ( Licenses)
+customfield_10819                   Deal Size ( Total)
+customfield_10806                   Deal Size [USD] Services
+customfield_10878                   Deal Status
+customfield_13346                   Deal Type
+customfield_10271                   Decreases Cost
+customfield_10598                   Define
+customfield_14310                   Delivery Forecast Amount
+customfield_14309                   Delivery Forecast Date
+customfield_11274                   Delivery progress
+customfield_10509                   Delivery Rating
+customfield_10940                   Delivery Review Date
+customfield_10760                   Delivery SPOC
+customfield_11275                   Delivery status
+customfield_13787                   Demo Delivered Start Date
+customfield_13775                   Demo Delivered Start date
+customfield_13786                   Demo Preparation Start Date
+customfield_13774                   Demo Preparation start date
+customfield_13773                   Demo Request Review start date
+customfield_13785                   Demo Request Review Start Date
+customfield_10859                   Department
+customfield_10713                   Department
+customfield_14685                   Department
+customfield_10586                   Department
+customfield_14376                   Department Concat
+customfield_14377                   Department Count
+customfield_14757                   Department Details
+customfield_10851                   Deployed Offering Code
+customfield_10332                   Deployed To
+customfield_10494                   Deployment Type
+customfield_12030                   Deposit Amount ($)
+customfield_11076                   Dept Code
+description                         Description
+customfield_10796                   Design
+customfield_10341                   Design Impact
+customfield_10337                   Design Reviewer
+customfield_10588                   Designation
+customfield_10723                   Designation
+customfield_10331                   Designer
+customfield_10841                   Designs ready
+customfield_13828                   Detailed Question
+customfield_10824                   Details
+customfield_10280                   Developer
+customfield_10000                   Development
+customfield_11827                   DF Amount ($)
+customfield_12026                   DF Number
+customfield_12958                   DF Request Name  
+customfield_14795                   DF Validated
+customfield_12759                   DG
+customfield_10401                   Diff between Expected & Achieved ROI (Lead Value)
+customfield_10394                   Diff between Expected & Achieved ROI (NO of Leads)
+customfield_10802                   Difference of Days
+customfield_10348                   Digital Marketer
+customfield_10692                   Diploma Board
+customfield_10705                   Diploma Passing Year
+customfield_10294                   Director
+customfield_14517                   Discount
+customfield_16303                   Discount (%)
+customfield_16302                   Discount Type
+customfield_10343                   DMP
+customfield_10355                   DMU
+customfield_11062                   Do you want to raise POA License Ticket?
+customfield_11063                   Do you want to raise POA Services Ticket?
+customfield_11365                   Document Checklist
+customfield_10849                   Documents
+customfield_12392                   DPO
+customfield_14569                   DPO1
+customfield_11826                   DR Amount ($)
+customfield_12025                   DR Number
+customfield_14796                   DR Validated
+customfield_12028                   DR/Rebate/DF Amount ($)
+customfield_11930                   DSO
+customfield_14568                   DSO1
+customfield_16304                   DT License Amount
+customfield_10643                   Due Date
+duedate                             Due date
+customfield_10522                   Due date for Q1 Review
+customfield_10524                   Due date for Q2 Review
+customfield_10525                   Due date for Q3 Review
+customfield_10526                   Due date for Q4 Review
+customfield_12321                   Earned Amount ($)
+customfield_14138                   Earned Amount ($) W1
+customfield_14139                   Earned Amount ($) W2
+customfield_14140                   Earned Amount ($) W3
+customfield_14141                   Earned Amount ($) W4
+customfield_14758                   Earned Delivery Date
+customfield_12455                   Earned Hours
+customfield_10846                   Effort
+customfield_10979                   Efforts
+customfield_13140                   Elaboration Actual End Date
+customfield_13139                   Elaboration Actual Start Date
+customfield_13141                   Elaboration Approved By
+customfield_13138                   Elaboration End Date
+customfield_13137                   Elaboration Start Date
+customfield_10251                   Email Address
+customfield_11086                   Email ID
+customfield_11000                   Email Id Creation Beyond the Threshold
+customfield_10999                   Email ID Deleted Beyond the Threshold
+customfield_10300                   Employee
+customfield_10223                   Employee Accomplishments
+customfield_10324                   Employee Feedback
+customfield_10306                   Employee Feedback
+customfield_10567                   Employee ID
+customfield_10614                   Employee Name
+customfield_10731                   Employee Number
+customfield_11051                   Employee OC
+customfield_11048                   Employee Offering Code
+customfield_10562                   Employee Rating(2022-2023)
+customfield_10563                   Employee Rating(2023-2024)
+customfield_10561                   Employee Status
+customfield_10718                   Employment Type
+customfield_10464                   End date
+customfield_11171                   End Date
+customfield_11079                   Engagement Model
+customfield_13279                   Engagement Point Custodian
+customfield_10604                   Engagement Types
+customfield_12951                   Enreap Contribution
+customfield_10724                   Enreap E-Mail
+customfield_13573                   Enreap Email Id
+customfield_13574                   Enreap employee Contact details	
+customfield_13572                   Enreap Employee Name
+customfield_11389                   Enreap Proposed Payment (Trigger Date)
+customfield_11437                   Enreap Proposed Payment (Trigger Date) Cycle Month
+customfield_11438                   Enreap Proposed Payment (Trigger Date) Cycle No
+customfield_13571                   Enreap Spoc Details
+customfield_12565                   Entity name (Enreap)
+customfield_10330                   Env
+environment                         Environment
+customfield_11064                   Environment Impacted
+customfield_14603                   EP's
+customfield_10466                   Epic
+customfield_10467                   Epic
+customfield_10013                   Epic Color
+customfield_10014                   Epic Link
+customfield_10011                   Epic Name
+customfield_10012                   Epic Status
+customfield_10233                   Epic_assignee
+customfield_11334                   EPS Raised for Proposal
+customfield_10780                   Escalation Priority
+customfield_10866                   Escalation RAG
+customfield_10804                   Escalation Raised
+customfield_10794                   Escalation Resolution Identified
+customfield_10768                   Escalation Status 
+customfield_10263                   Estimate
+customfield_10517                   Estimated Efforts( In Hour )
+customfield_10239                   Estimated Revenue
+customfield_13818                   Estimated User Count / Scale
+customfield_13145                   Estimation Actual End Date
+customfield_13144                   Estimation Actual Start Date
+customfield_13146                   Estimation Approved By
+customfield_13143                   Estimation End Date
+customfield_13142                   Estimation Start Date
+customfield_10915                   ETA
+customfield_10354                   Event Date
+customfield_13054                   Event Name
+customfield_10369                   Event Organiser
+customfield_14532                   Exchange Rate Type
+customfield_12758                   Execution Owner
+customfield_10381                   Expected Call to Action
+customfield_10386                   Expected Campaign Responses
+customfield_10377                   Expected CRM contacts
+customfield_13815                   Expected Date of Demo
+customfield_12763                   Expected KPI Output
+customfield_10395                   Expected Leads
+customfield_11423                   Expected License Purchase Date
+customfield_10359                   Expected Outcome Comments
+customfield_10925                   Expected Payment Date
+customfield_11367                   Expected PO Closure Date
+customfield_10365                   Expected ROI (Lead Value)
+customfield_10356                   Expected ROI (No of Leads)
+customfield_11597                   Expected UAT Verif Date
+customfield_10412                   Expected Visuals
+customfield_10612                   Expense Date
+customfield_10855                   Experience Band
+customfield_10727                   Experience before enreap
+customfield_11033                   Experience on Asset management
+customfield_11035                   Experience on Roadmaps
+customfield_14800                   External issue ID
+customfield_10559                   External issue ID
+customfield_15101                   External issue ID
+customfield_10917                   External issue ID
+customfield_14760                   External issue ID
+customfield_10660                   Father's Name
+customfield_10625                   Feedback from Pre-Sales Team
+customfield_10624                   Feedback from Sales Team
+customfield_13577                   Finance approver
+customfield_11370                   Finance SPOC
+customfield_14794                   Finance Validation
+customfield_10613                   Financial Year
+customfield_10913                   First Name
+fixVersions                         Fix versions
+customfield_10021                   Flagged
+customfield_12393                   Focus Areas
+customfield_10236                   Follow up Date
+customfield_14207                   Forecasted Amount
+customfield_14567                   Forecasted Milestone Date
+customfield_14566                   Forecasted Project End Date
+customfield_14565                   Forecasted Project Start Date
+customfield_14514                   Forex Date
+customfield_14721                   Forex Exchange Rate
+customfield_11394                   Forex Gain/Loss
+customfield_12193                   Forex Mark Up (INR)
+customfield_10738                   Form Link
+customfield_10906                   Format
+customfield_10887                   From
+customfield_10872                   From Date
+customfield_10736                   FTE
+customfield_10237                   Full Name
+customfield_10262                   full name (migrated)
+customfield_10587                   Functional Manager
+customfield_10657                   Functional Manager Approval
+customfield_13576                   Functions
+customfield_13053                   Funnel Stage
+customfield_10505                   Future Business Prospects
+customfield_11069                   GCC
+customfield_10664                   Gender
+customfield_10264                   Generates Revenue
+customfield_11134                   Geo
+customfield_10279                   Ghost Inspector URL
+customfield_12955                   Gifts POC
+customfield_10832                   Goal
+customfield_10314                   Goal 1 Priority
+customfield_10310                   Goal 1 Summary
+customfield_10302                   Goal 2 Priority
+customfield_10296                   Goal 2 Summary
+customfield_10326                   Goal 3 Priority
+customfield_10321                   Goal 3 Summary
+customfield_10312                   Goal 4 Priority
+customfield_10308                   Goal 4 Summary
+customfield_10926                   Goal Discussion Date
+customfield_10973                   Goals
+customfield_10722                   Grades
+customfield_10668                   Graduation University
+customfield_10698                   Graduation Years
+customfield_10404                   Graphics Designer
+customfield_11372                   Gross Margin
+customfield_11395                   GST Collected
+customfield_12915                   GST Liability Amount
+customfield_12916                   GST Liability Due Date
+customfield_12917                   GST Liability Due Date Cycle Month
+customfield_12918                   GST Liability Due Date Cycle No
+customfield_16317                   GST Number
+customfield_13555                   GST Reg. Number
+customfield_13554                   GST Registration
+customfield_13556                   GST Returns filing frequency
+customfield_13821                   Hours
+customfield_10744                   HR
+customfield_10658                   HR Approval
+customfield_10301                   HR Representative
+customfield_11266                   Idea archived
+customfield_11267                   Idea archived by
+customfield_11268                   Idea archived on
+customfield_10847                   Idea short description
+customfield_10247                   Ideation Status and Next steps
+customfield_13564                   IFSC code
+thumbnail                           Images
+customfield_10728                   Immediate Manager 
+customfield_10656                   Immediate Manager Approval
+customfield_10004                   Impact
+customfield_10826                   Impact
+customfield_10444                   Impact (migrated)
+customfield_10838                   Impact score
+customfield_10884                   Impact.
+customfield_13155                   Implementation Actual End Date
+customfield_13154                   Implementation Actual Start Date
+customfield_13156                   Implementation Approved By
+customfield_13153                   Implementation End Date
+customfield_11050                   Implementation Knowledge on PPM Products
+customfield_10576                   Implementation plan
+customfield_13152                   Implementation Start Date
+customfield_15034                   Import Status
+customfield_13776                   In Progress Start Date
+customfield_13478                   Incentive Before Currency Impact
+customfield_13345                   Incentive Metrics
+customfield_13410                   Incentive to be given
+customfield_11052                   Incident SLA
+customfield_14518                   India - INR per USD
+customfield_14519                   India -AED per USD
+customfield_14520                   India -MYR per USD
+customfield_14521                   India -SGD per USD
+customfield_14522                   India -USD per USD
+customfield_10272                   Info
+customfield_13674                   Initiative End Date
+customfield_13443                   Initiative Level 
+customfield_13740                   Initiative Start Date
+customfield_13083                   Initiatives Workflow Status
+customfield_10542                   Innovative
+customfield_11271                   Insights
+customfield_10544                   Invested Efforts(in hrs)
+customfield_10445                   Investigation reason
+customfield_10581                   Investigation reason
+customfield_10870                   Invoice Amount
+customfield_11993                   Invoice Amount in local currency (Including Tax)
+customfield_11366                   Invoice Amount in local currency (Without Tax)
+customfield_11995                   Invoice Amount in USD (Excluding Tax)
+customfield_11994                   Invoice Amount in USD (Including Tax)
+customfield_10462                   Invoice Amounts
+customfield_12555                   Invoice Conversion rate
+customfield_12554                   Invoice Currency Type
+customfield_10650                   Invoice Date
+customfield_12556                   Invoice Forex Mark Up
+customfield_10652                   Invoice Number
+customfield_10482                   Invoice Type
+customfield_10784                   Is Presales Registration Done?
+customfield_10545                   Is the "Concept Elaboration" confluence page reviewed & approved?
+customfield_10536                   Is the concept worth elaborating?
+customfield_10531                   Is the initial estimate captured?
+customfield_10534                   Is the qualification provided in confluence reviewed & approved?
+customfield_10740                   ISM Self-transition Value
+customfield_10616                   ISM Ticket ID
+customfield_10992                   ISO Impact
+customfield_10994                   ISO RCA
+customfield_10017                   Issue color
+customfield_16385                   Issue Is From ISM
+customfield_10748                   Issue Key Custom Field
+issuetype                           Issue Type
+customfield_11093                   Jira Link
+customfield_11023                   Jira/JSM - Cloud to Server/DC
+customfield_11022                   Jira/JSM - Server/DC To Cloud
+customfield_11020                   Jira/JSM Automation Knowledge
+customfield_11024                   Jira/JSM Cloud to Cloud
+customfield_10481                   Job Candidate
+customfield_11306                   Job level
+customfield_11083                   Job level(Text)
+customfield_10708                   Joining Details Approval
+customfield_11017                   JSM Experience
+customfield_11018                   JSM Support And Implementation
+customfield_10710                   Key
+issuekey                            Key
+customfield_14686                   Key Activities
+customfield_10371                   Key Message / Value Proposition
+customfield_13082                   KeyResults Workflow Status
+customfield_11034                   Knowledge on Asset Management
+customfield_11036                   Knowledge on Roadmaps
+customfield_11039                   Known Confluence Plugins
+customfield_11038                   Known Jira/JSM  Plugins
+customfield_13193                   KPI Baselined Actual End Date
+customfield_13192                   KPI Baselined Actual Start Date
+customfield_13194                   KPI Baselined Approved By
+customfield_13191                   KPI Baselined End Date
+customfield_13190                   KPI Baselined Start Date
+customfield_12519                   KR Level
+labels                              Labels
+customfield_10873                   Last Date
+customfield_10746                   Last Name
+lastViewed                          Last Viewed
+customfield_10778                   Last Working Date
+customfield_10596                   Latest Update
+customfield_12194                   Lead Type
+customfield_10406                   Lead value
+customfield_14208                   Leaders Due date
+customfield_14210                   Leaders Probability
+customfield_14276                   Leadership
+customfield_10396                   Learnings
+customfield_13816                   Legacy tool if using
+customfield_13806                   Legacy Tools
+customfield_13510                   Legal Entity
+customfield_10863                   Legal SLA
+customfield_10892                   Legal SLA for MSA
+customfield_10860                   Legal Team Member
+customfield_10428                   License Amount ($)
+customfield_16309                   License Amount In Local Currency
+customfield_10431                   License Fulfilment SLA
+customfield_10352                   License Sales Manager
+customfield_10248                   License Sales Owner
+customfield_14798                   License Validated
+customfield_10876                   License/Services
+customfield_10391                   Life cycle stage
+customfield_10648                   Line Manager Asset
+issuelinks                          Linked Issues
+customfield_11273                   Linked items
+customfield_10384                   Linked to ApacLead
+customfield_11067                   Linkedin URL
+customfield_12952                   Location / Venue
+customfield_10203                   Locked forms
+worklog                             Log Work
+customfield_11760                   Lower TDS
+customfield_10585                   Major incident
+customfield_14527                   Malaysia - INR per MYR
+customfield_14526                   Malaysia - MYR per USD
+customfield_14528                   Malaysia - USD per USD
+customfield_10938                   Management Approval Date
+customfield_13511                   Management Approver
+customfield_10932                   Manager Approval Date
+customfield_13575                   Manager Approver	
+customfield_10328                   Manager Assessment
+customfield_10329                   Manager Feedback
+customfield_10222                   Manager Feedback (Employee Accomplishments)
+customfield_10284                   Manager Feedback Goal 1
+customfield_10318                   Manager Feedback Goal 2
+customfield_10303                   Manager Feedback Goal 3
+customfield_10327                   Manager Feedback Goal 4
+customfield_10519                   Manager Overall Feedback Goal 1
+customfield_10520                   Manager Overall Feedback Goal 2
+customfield_10521                   Manager Overall Feedback Goal 3
+customfield_10523                   Manager Overall Feedback Goal 4
+customfield_10946                   Manager Value Rating
+customfield_10325                   Manager's Ranking Q1
+customfield_10315                   Manager's Ranking Q2
+customfield_10297                   Manager's Ranking Q3
+customfield_10322                   Manager's Ranking Q4
+customfield_10363                   Maps to Addteq Offering
+customfield_10665                   Marital Status
+customfield_16351                   Mark for Attention
+customfield_11057                   Market Maturity Phase
+customfield_16308                   Market Sales Manager
+customfield_11332                   Market Sales Owner
+customfield_11373                   Market Team
+customfield_14243                   Market Team_
+customfield_11304                   Market Team.
+customfield_11074                   Market type
+customfield_11137                   Market Type Parent
+customfield_12957                   Marketing Activity End Date 
+customfield_12956                   Marketing Activity Start Date 
+customfield_10898                   Marketing asset type
+customfield_10374                   Marketing Conversion Probability
+customfield_10424                   Marketing Manager
+customfield_10918                   Marketing Review Date
+customfield_10919                   Marketing SPOC
+customfield_12255                   Marketing Ticket creation date
+customfield_12579                   Markety type
+customfield_10276                   Max No. of Customers
+customfield_12950                   MDF Amount
+customfield_12884                   MDF Claim Date
+customfield_13873                   MDF Collection Date
+customfield_12886                   MDF-Ticket
+customfield_10361                   Medium of Content
+customfield_10290                   Meeting Date & Time
+customfield_13784                   Meeting Held Start Date
+customfield_13782                   Meeting Request Start Date
+customfield_13783                   Meeting Scheduled Start Date
+customfield_14529                   MENA - AED per USD
+customfield_14530                   MENA - USD per USD
+customfield_11084                   MicroSegment / Dept
+customfield_10745                   Middle Name
+customfield_11021                   Migration Experience
+customfield_14835                   Milestone
+customfield_14684                   Milestone Approver
+customfield_10486                   Milestone Check
+customfield_13116                   Milestone Due Date
+customfield_14445                   Milestone End Date
+customfield_14683                   Milestone Owner
+customfield_14444                   Milestone Start Date
+customfield_10513                   Milestone Summary
+customfield_13115                   Milestones
+customfield_11080                   Mkt / ISM Link
+customfield_10706                   Mobile No
+customfield_10267                   Mobile Number
+customfield_10791                   Mode of Fulfillment
+customfield_11629                   Module
+customfield_10761                   Month
+customfield_12002                   Monthly License Amount ($)
+customfield_13120                   MOS Geo
+customfield_13121                   MOS Market Team
+customfield_13124                   MOS OEM
+customfield_13123                   MOS Opportunity Category
+customfield_13122                   MOS Opportunity Type
+customfield_13114                   MOS Owner
+customfield_13118                   MOS Product
+customfield_13119                   MOS Region Code
+customfield_13126                   MOS Revenue Stream
+customfield_13113                   MOS Scope
+customfield_13125                   MOS Specialization
+customfield_13559                   MSME Registration Number
+customfield_10320                   My Assessment Goal 1
+customfield_10311                   My Assessment Goal 2
+customfield_10291                   My Assessment Goal 3
+customfield_10319                   My Assessment Goal 4
+customfield_10983                   Name
+customfield_13562                   Name of Bank
+customfield_10689                   Name of person in case of emergency
+customfield_13056                   Name of Vendor
+customfield_10677                   Nationality
+customfield_13548                   Nature of Business
+customfield_13829                   Nature of Query
+customfield_11088                   Need
+customfield_10541                   Need for "Retrospection"?
+customfield_12651                   Net Revenue
+customfield_11393                   Net Revenue in USD
+customfield_12620                   Net Revenue(Actual-Q2)
+customfield_12717                   Net Revenue(Actual-Q3)
+customfield_12718                   Net Revenue(Actual-Q4)
+customfield_12619                   Net Revenue(Plan-Q2)
+customfield_12720                   Net Revenue(Plan-Q3)
+customfield_12721                   Net Revenue(Plan-Q4)
+customfield_12719                   Net Revenue(Plan)
+customfield_13061                   New Invoice Amount in Customer Currency
+customfield_10595                   Next Action Items
+customfield_14643                   No of CCC2 Milestone days
+customfield_14644                   No of CCC3 Milestone days
+customfield_14649                   No of CCC4 Milestone Days
+customfield_14650                   No of CCC5 Milestone Days
+customfield_10345                   No. of Follow-Ups
+customfield_10921                   Nominee Details
+customfield_12325                   Non Accruable Amount ($)
+customfield_12459                   Non Accrued Hours
+customfield_10250                   Note
+customfield_10943                   Number
+customfield_10508                   Number of Milestones
+customfield_12223                   Number of Users
+customfield_13184                   Objective Identification Approved By
+customfield_13180                   Objective Identification Start Date
+customfield_13183                   Objective IdentificationActual End Date
+customfield_13182                   Objective IdentificationActual Start Date
+customfield_13181                   Objective IdentificationEnd Date
+customfield_13830                   Objective level
+customfield_12754                   Objective Summary
+customfield_12520                   Objective Type
+customfield_13971                   Observation End Date
+customfield_11092                   OEM
+customfield_11054                   OEM
+customfield_12222                   OEM  Support Plans
+customfield_11798                   OEM Actual Payment Amount
+customfield_12001                   OEM Actual Payment Amount in USD
+customfield_11795                   OEM Actual Payment Amount1
+customfield_11793                   OEM Actual Payment Amount2
+customfield_11794                   OEM Actual Payment Amount3
+customfield_11801                   OEM Actual Payment Date
+customfield_11425                   OEM Actual Payment Date1
+customfield_11796                   OEM Actual Payment Date2
+customfield_11797                   OEM Actual Payment Date3
+customfield_11802                   OEM Actual Payment Exchange Rate 1
+customfield_11803                   OEM Actual Payment Exchange Rate 2
+customfield_11804                   OEM Actual Payment Exchange Rate 3
+customfield_13608                   OEM Contribution
+customfield_14722                   OEM Conversion Rate
+customfield_16307                   OEM Credit Note
+customfield_11404                   OEM Due Date
+customfield_11433                   OEM Due Date Cycle Month
+customfield_11434                   OEM Due Date Cycle No
+customfield_13839                   OEM fund type
+customfield_12582                   OEM Funding Amount ($)
+customfield_12581                   OEM Funding ticket Number
+customfield_14799                   OEM Funding Type
+customfield_11138                   OEM Parent
+customfield_11442                   OEM payment Terms
+customfield_11302                   OEM Program
+customfield_11364                   OEM Purchase Amount ($)
+customfield_11418                   OEM Quote Amount ($)
+customfield_11443                   OEM Statement Date
+customfield_11439                   OEM Statement No.
+customfield_16306                   OEM Tax Invoice
+customfield_10408                   OEM's Expected Cost(USD)
+customfield_10469                   Offer
+customfield_10470                   Offer Acceptance
+customfield_10471                   Offer Decision
+customfield_10655                   Offering Code
+customfield_13714                   Offering Code 1
+customfield_13715                   Offering Code 2
+customfield_13716                   Offering Code 3
+customfield_13710                   Offering Code 4
+customfield_13711                   Offering Code 5
+customfield_12816                   Old Actual End Date
+customfield_11298                   Old APM Ticket Key
+customfield_10783                   On-Site
+customfield_10429                   Onboarding/Offboarding SLA
+customfield_10204                   Open forms
+customfield_12387                   Opening Account Payable
+customfield_11727                   Opening Account Receivable
+customfield_10571                   Operational categorization
+customfield_10441                   Operational categorization
+customfield_10814                   Operational Status
+customfield_10414                   OPP ICP
+customfield_11075                   Opportunity Category
+customfield_11235                   Opportunity Created
+customfield_10871                   Opportunity Type
+customfield_11139                   Opportunity Type Child
+customfield_10955                   Opportunity value
+customfield_12192                   ORC Amount
+customfield_13570                   Order Amount
+customfield_10717                   Organization
+customfield_10002                   Organizations
+customfield_10410                   Orientation
+customfield_11379                   Original Commitment Date from Sales Owner
+customfield_11411                   Original Commitment Date from Sales Owner Cycle Month
+customfield_11412                   Original Commitment Date from Sales Owner Cycle No
+timeoriginalestimate                Original estimate
+customfield_11232                   Osql Created
+customfield_13553                   Other Contacts
+customfield_12191                   Other Costs
+customfield_11040                   Other Plugins If Not Listed Above
+customfield_13312                   Other Point of Contact
+customfield_11061                   Other Product Name
+customfield_14037                   Other Reason for Invoice Delay
+customfield_13939                   Other Reason for Invoice Delay.
+customfield_12190                   Other Revenue
+customfield_10627                   Outcome
+customfield_13245                   Over Collection
+customfield_10227                   Overall Business Value
+customfield_10514                   Overall Customer Satisfaction Rating
+customfield_10416                   Overall Expected Cost(USD)
+customfield_10313                   Overall Manager's Feedback
+customfield_10309                   Overall Manager's Ranking
+customfield_10610                   Overall Manager's Rating
+customfield_10528                   Overall Ranking
+customfield_10288                   Overall Self Feedback
+customfield_10292                   Overall Self Ranking
+customfield_11002                   Overall Years Of Experience
+customfield_10418                   Owner
+customfield_13311                   Ownership
+customfield_10407                   Pain sheet
+customfield_10682                   Pan Card Number
+customfield_13557                   Pan No
+parent                              Parent
+customfield_12486                   Parent Key Value
+customfield_10018                   Parent Link
+customfield_14934                   Parent Page ID
+customfield_10253                   Parked For Future
+customfield_10858                   Party Name
+customfield_10683                   Passport Number
+customfield_10788                   Payment advice send to Vendor
+customfield_10504                   Payment Check
+customfield_10516                   Payment Details
+customfield_11388                   Payment Mode
+customfield_10474                   Payment terms
+customfield_10880                   Payment Terms
+customfield_12552                   Payment Terms after Contract Review
+customfield_14570                   Payment Terms Days
+customfield_12575                   PBT status
+customfield_10286                   PDP
+customfield_10304                   PDP Feedback
+customfield_10570                   Pending reason
+customfield_10442                   Pending reason
+customfield_10501                   Per Hour Rate( In $ )
+customfield_10895                   Percentage
+customfield_12574                   Period
+customfield_10663                   Permanent Address
+customfield_10686                   Personal Email Id
+customfield_13117                   Perspective
+customfield_10684                   PF Number
+customfield_10546                   PfM Panel Approval
+customfield_10457                   Phase Link
+customfield_10492                   Phone
+customfield_11662                   Phone Number (WhatsApp)
+customfield_10675                   Place of Birth
+customfield_12156                   Plan
+customfield_10907                   Plan Date
+customfield_12761                   Plan Due
+customfield_10767                   Plan to Resolve Escalation
+customfield_12323                   Planned Amount ($)
+customfield_10949                   Planned Cost of Resource
+customfield_14104                   Planned Delivery Date
+customfield_10580                   Planned end
+customfield_12457                   Planned Hours
+customfield_10367                   Planned Network Reach
+customfield_10952                   Planned Project Cost
+customfield_10579                   Planned start
+customfield_11596                   Planned UAT Implementation Date
+customfield_10852                   Platform
+customfield_11044                   Platform
+customfield_11037                   Plugin Experience
+customfield_12684                   PO Amount
+customfield_12566                   PO Number
+customfield_10503                   Portfolio Relevance Rating
+customfield_10984                   Position
+customfield_10711                   Post-Graduate or not
+customfield_10700                   Post-Graduation University & Years
+customfield_13549                   Postal Code
+customfield_10527                   Potential / Behaviour Ranking
+customfield_11042                   PPM  Support Experience
+customfield_11049                   PPM Implementation Experience
+customfield_10712                   Practice
+customfield_10647                   Practice/CoE
+customfield_10339                   Pre-requisite
+customfield_10366                   Pre-Sales Owner
+customfield_13779                   Presales Approval Start Date
+customfield_10785                   Presales Registration Date
+customfield_13641                   Presales Ticket Type
+customfield_10662                   Present Address
+customfield_10990                   Presenters
+customfield_10226                   Price per unit
+customfield_10605                   Pricing Type
+customfield_10415                   Primary Content
+customfield_10351                   Primary Emphasis
+customfield_10603                   Primary Implementor
+customfield_10421                   Primary Media
+customfield_10891                   Primary OC
+customfield_10741                   Primary Offering Code
+customfield_13050                   Primary Product Focus
+customfield_12752                   Primary Region
+customfield_10936                   Primary Resource Code
+customfield_10289                   Primary Reviewer
+priority                            Priority
+customfield_12784                   probability
+customfield_11308                   Probability (%)
+customfield_11504                   Problem Description
+customfield_13130                   Problem Framing Actual End Date
+customfield_13129                   Problem Framing Actual Start Date
+customfield_13131                   Problem Framing Approved by
+customfield_13128                   Problem Framing End Date
+customfield_13127                   Problem Framing Start Date
+customfield_10235                   Problem Observed
+customfield_13808                   Problem Statement
+customfield_10323                   Process Satisfaction
+customfield_10976                   Product
+customfield_12751                   Product / GTM Mapping
+customfield_10392                   Product /& Service
+customfield_10850                   Product Area
+customfield_10439                   Product categorization
+customfield_10569                   Product categorization
+customfield_11059                   Product Group
+customfield_12896                   product mapping
+customfield_11058                   Product Maturity Phase
+customfield_11060                   Product Name
+customfield_10335                   Product Owner
+customfield_11331                   Product Sales Owner
+customfield_13832                   Production Actual End Date
+customfield_13833                   Production End Date
+customfield_11573                   Production release date
+customfield_10617                   Products and Services
+customfield_10792                   Products and Tools
+customfield_10479                   Profitability
+customfield_12560                   Proforma Conversion Rate
+customfield_12561                   Proforma Currency Type
+customfield_11468                   Proforma Invoice date
+customfield_11467                   Proforma Invoice No.
+customfield_11469                   Program Increment
+customfield_10461                   Progress
+progress                            Progress
+customfield_16350                   Project
+project                             Project
+customfield_10747                   Project Category
+customfield_13707                   Project Effort (in Hrs)
+customfield_10801                   Project End
+customfield_13823                   Project End date
+customfield_10782                   Project Hours
+customfield_10634                   Project Manager
+customfield_10342                   Project Name
+customfield_10635                   Project overview key
+customfield_10636                   Project overview status
+customfield_10489                   Project Priority
+customfield_10842                   Project start
+customfield_10800                   Project Start
+customfield_13822                   Project Start date
+customfield_10843                   Project target
+customfield_10507                   Project Type
+customfield_10820                   Project/Engagement Duration ( in Months)
+customfield_12954                   Promotional POC
+customfield_10518                   Proposal Link
+customfield_10775                   Proposal Priority
+customfield_10912                   Proposal Sent to Customer
+customfield_10911                   Proposal Sent to Sales
+customfield_10977                   Proposal URL
+customfield_15068                   Proposal Validity date
+customfield_12029                   PSD Number
+customfield_11233                   PSQL Created
+customfield_11403                   Purchase Conversion Rate 1
+customfield_11892                   Purchase Conversion Rate 2
+customfield_11893                   Purchase Conversion Rate 3
+customfield_11402                   Purchase Currency Type
+customfield_11694                   Purchase Transaction Amount ($)
+customfield_11430                   Purchase Transaction Amount ($)1
+customfield_11431                   Purchase Transaction Amount ($)2
+customfield_11432                   Purchase Transaction Amount ($)3
+customfield_11799                   Purchase Transaction Date
+customfield_11435                   Purchase Transaction Date Cycle Month
+customfield_11436                   Purchase Transaction Date Cycle No
+customfield_11387                   Purchase Transaction Date1
+customfield_11428                   Purchase Transaction Date2
+customfield_11429                   Purchase Transaction Date3
+customfield_10480                   Purchase type
+customfield_11419                   Purchasing Entity
+customfield_10380                   Purpose
+customfield_15167                   PVR Amount ($)
+customfield_15233                   PVR Validation
+customfield_10927                   Q1 Review Date
+customfield_10928                   Q2 Review Date
+customfield_10929                   Q3 Review Date
+customfield_10930                   Q4 Review Date
+customfield_12948                   Quarter
+customfield_10762                   Quarter
+customfield_13827                   Question
+customfield_10483                   Quote expiry date
+customfield_10478                   Quote no.
+customfield_10944                   Quoted Value
+customfield_12890                   R1 Allocated Days 
+customfield_12891                   R2 Allocated Days
+customfield_12892                   R3 Allocated Days
+customfield_13712                   R4 Allocated Days
+customfield_13713                   R5 Allocated Days
+customfield_10589                   RAG
+customfield_13642                   Raise an EPS
+customfield_10019                   Rank
+customfield_10379                   Rate theCampaign
+customfield_10529                   RCA
+customfield_11409                   RCM (%)
+customfield_11407                   RCM GST Payable
+customfield_12893                   RCM Liability Due Date
+customfield_12894                   RCM Liability Due Date Cycle Month
+customfield_12895                   RCM Liability Due Date Cycle No
+customfield_11408                   RCM Value
+customfield_10543                   Re-elaborate
+customfield_10265                   Reason
+customfield_10862                   Reason for Cancellation
+customfield_11065                   Reason For Change
+customfield_13938                   Reason for Invoice Delay
+customfield_13344                   Reason for loss
+customfield_10879                   Reason for Lost
+customfield_10770                   Reason for Resignation
+customfield_10473                   Reason of Rejection
+customfield_15001                   Reason to put On-Hold
+customfield_10240                   Reasoning
+customfield_12027                   Rebate Amount ($)
+customfield_14797                   Rebate Validated
+customfield_10886                   Received
+customfield_14070                   Reconciliation
+customfield_14071                   Reconciliation Reason
+customfield_10732                   Recruitment ID
+customfield_10491                   Referrers
+customfield_10719                   Region
+customfield_10232                   REGION
+customfield_10646                   Region - 
+customfield_10789                   Region and Sub-Region
+customfield_11085                   Region code
+customfield_11133                   Region Parent
+customfield_10477                   Reimbursement mentioned in PO
+customfield_10899                   Related projects
+customfield_13826                   Related Sales Opportunity/Deal
+customfield_11991                   Release proposal date
+customfield_14968                   Release Reviewer
+customfield_14901                   Release Reviewer Group
+customfield_10261                   Relevance to Access Anywhere
+customfield_10254                   Relevance to Agile Dev teams
+customfield_10270                   Relevance to Disconnect Systems
+customfield_10256                   Relevance to Integrate Systems
+customfield_10257                   Relevance to Software Release Mngt
+customfield_10679                   Relevant Experience
+timeestimate                        Remaining Estimate
+customfield_10908                   Remark
+customfield_10771                   Remarks/Comments
+customfield_10499                   Renewal date
+reporter                            Reporter
+customfield_10639                   Reporting Manager
+customfield_10642                   Reporting Manager Email
+customfield_14935                   Reports To
+customfield_10975                   Request By
+customfield_10547                   Request language
+customfield_10208                   Request participants
+customfield_10010                   Request Type
+customfield_10336                   Request Type (migrated)
+customfield_11499                   Requested By
+customfield_10703                   Residence Phone Number
+resolution                          Resolution
+resolutiondate                      Resolved
+customfield_12887                   Resource 1
+customfield_12888                   Resource 2
+customfield_12889                   Resource 3
+customfield_13150                   Resource approval Actual End Date
+customfield_13149                   Resource approval Actual Start Date
+customfield_13151                   Resource Approval Approved By
+customfield_13148                   Resource approval End Date
+customfield_13147                   Resource approval Start Date
+customfield_10885                   Resource Code
+customfield_10813                   Resources Reserved
+customfield_10548                   Responders
+customfield_12757                   Responsible Marketing
+customfield_12756                   Responsible Sales
+issuerestriction                    Restrict to
+customfield_13476                   Revenue Achievement %
+customfield_13477                   Revenue Shortfall (Absolute)
+customfield_11077                   Revenue Stream
+customfield_13810                   Review completion date
+customfield_10278                   Reviewer
+customfield_11382                   Revised Commitment date from Sales Owner
+customfield_11413                   Revised Commitment date from Sales Owner Cycle Month
+customfield_11414                   Revised Commitment date from Sales Owner Cycle No
+customfield_10799                   Revised End
+customfield_10798                   Revised Start
+customfield_11169                   Revision
+customfield_10594                   Risk
+customfield_10763                   Risk Description
+customfield_10764                   Risk Mitigation
+customfield_10795                   Risk Mitigation Identified
+customfield_10779                   Risk Priority
+customfield_10865                   Risk RAG
+customfield_10803                   Risk Raised
+customfield_10765                   Risk Status
+customfield_10241                   Risk to Adoption
+customfield_10833                   Roadmap
+customfield_10853                   Role
+customfield_10599                   Rollout
+customfield_10582                   Root cause
+customfield_10447                   Root cause
+customfield_10766                   Runtime Escalation Description
+customfield_10434                   Salary SLA
+customfield_12553                   Sales Conversion Date
+customfield_10972                   Sales Currency Type
+customfield_10496                   Sales Engagement Rating
+customfield_12563                   Sales Invoice Conversion Rate
+customfield_11377                   Sales Invoice Creation Date
+customfield_11405                   Sales Invoice Creation Date Cycle Month
+customfield_11406                   Sales Invoice Creation Date Cycle No
+customfield_12562                   Sales Invoice Currency Type
+customfield_11378                   Sales Invoice Due Date
+customfield_11400                   Sales Invoice Due Date Cycle Month
+customfield_11401                   Sales Invoice Due Date Cycle No
+customfield_11992                   Sales Invoice Exchange Rate
+customfield_11416                   Sales Invoice Number
+customfield_13280                   Sales lead
+customfield_11371                   Sales proposal value
+customfield_11333                   Sales Remark
+customfield_10864                   Sales SLA
+customfield_10893                   Sales SLA for MSA
+customfield_10590                   Sales SPOC
+customfield_11094                   Salesforce Link
+customfield_10231                   Salesforce prospect link
+customfield_12057                   SalesWarmMQL date
+customfield_10209                   Satisfaction
+customfield_10210                   Satisfaction date
+customfield_10980                   Schedule
+customfield_10867                   Schedule Variance RAG
+customfield_10989                   Scheduled date
+customfield_14174                   Scheduling mode
+customfield_10510                   Scope
+customfield_10593                   Scope of Work
+customfield_10333                   Scrum Master
+customfield_10742                   Secondary Offering Code
+customfield_13315                   Secondary Product Focus
+customfield_12753                   Secondary Region
+customfield_10295                   Secondary Reviewer
+security                            Security Level
+customfield_10750                   Segment
+customfield_11303                   Segment BU
+customfield_11384                   Segment BU
+customfield_11305                   Segment BU Parent
+customfield_11091                   Segment BU(Select List)
+customfield_11385                   Segment Owner
+customfield_10498                   Select a Project
+customfield_10931                   Self Assessment Date
+customfield_10317                   Self Ranking Q1
+customfield_10307                   Self Ranking Q2
+customfield_10285                   Self Ranking Q3
+customfield_10316                   Self Ranking Q4
+customfield_10945                   Self Value Rating
+customfield_10729                   Self-Transition Value
+customfield_10537                   Send Review Request To
+customfield_10954                   Sentiment
+customfield_11563                   Sequence number
+customfield_10432                   Service Invoice SLA
+customfield_10609                   Service Sales Manager
+customfield_10608                   Service Sales Owner
+customfield_16313                   Service Type
+customfield_10506                   Service type
+customfield_13567                   Service Type Based Information
+customfield_10383                   Services Amount ($)
+customfield_10574                   Severity
+customfield_10592                   Shadow Resource
+customfield_10937                   Sign-off Requested Date
+customfield_10974                   Signature Type
+customfield_10874                   Signed By
+customfield_10882                   Signed by Customer
+customfield_10881                   Signed by Legal
+customfield_14524                   Singapore - INR per USD
+customfield_14523                   Singapore - SGD per USD
+customfield_14525                   Singapore - USD per USD
+customfield_11072                   Size
+customfield_10877                   Sizing
+customfield_10274                   Sizing Assumptions
+customfield_13708                   Skills
+customfield_10757                   Skills(Beginner)
+customfield_10759                   Skills(Expert)
+customfield_10758                   Skills(Proficient)
+customfield_10769                   Soft Skills
+customfield_10776                   Solution SPOC
+customfield_11046                   Solutions / Specialization
+customfield_10443                   Source
+customfield_10575                   Source
+customfield_10373                   Source of this Lead
+customfield_10472                   SOW Link
+customfield_10840                   Spec ready
+customfield_13812                   Special Requirements/Additional Information
+customfield_10854                   Specialization
+customfield_10793                   Specialization Area
+customfield_12130                   SPM Priority Score [ Strategic Alignment Model]
+customfield_11571                   SPM Priority Score [ Strategic Alignment Model]
+customfield_11570                   SPM Priority Score [Balanced Scorecard]
+customfield_12129                   SPM Priority Score [Balanced Scorecard]
+customfield_11564                   SPM Priority Score [ICE]
+customfield_12123                   SPM Priority Score [ICE]
+customfield_11569                   SPM Priority Score [Important vs Urgent (Eisenhower Matrix)]
+customfield_12128                   SPM Priority Score [Important vs Urgent (Eisenhower Matrix)]
+customfield_11568                   SPM Priority Score [Quick Wins]
+customfield_12127                   SPM Priority Score [Quick Wins]
+customfield_11565                   SPM Priority Score [RICE]
+customfield_12124                   SPM Priority Score [RICE]
+customfield_11567                   SPM Priority Score [Value vs Effort]
+customfield_12126                   SPM Priority Score [Value vs Effort]
+customfield_11566                   SPM Priority Score [WSJF]
+customfield_12125                   SPM Priority Score [WSJF]
+customfield_14868                   SPOC Owner
+customfield_10358                   Sponsorship Type
+customfield_10661                   Spouse's Name:
+customfield_10020                   Sprint
+customfield_16301                   ST License Amount
+customfield_14834                   Stage
+customfield_10905                   Stakeholders
+customfield_12762                   Start
+customfield_10015                   Start date
+customfield_10552                   State
+status                              Status
+customfield_12760                   Status
+statusCategory                      Status Category
+statuscategorychangedate            Status Category Changed
+customfield_12766                   Status udapte on 3 sept 
+customfield_12768                   Status udapte on 30th Nov 
+customfield_12767                   Status udapte on 31 oct 
+customfield_12769                   Status udapte on 31st Dec 
+customfield_12765                   Status Update 31 Aug 
+customfield_10016                   Story point estimate
+customfield_10219                   Story Points
+customfield_12750                   Strategic Pillar
+customfield_13825                   Strategic Play
+customfield_13081                   Strategic Workflow Status
+customfield_13550                   Street
+customfield_12850                   Sub System
+subtasks                            Sub-tasks
+customfield_11136                   Sub-Vertical (Org ICP)
+customfield_10714                   Subdivision
+customfield_10205                   Submitted forms
+customfield_10228                   Subscribe
+customfield_11498                   Suggested Solution
+summary                             Summary
+customfield_11043                   Support on PPM Products
+customfield_13566                   Swift code
+customfield_12849                   System
+customfield_10533                   T-Shirt Size
+customfield_10400                   Tags
+customfield_11761                   TAN Number
+customfield_10393                   Target Audience
+customfield_12764                   Target Completion
+customfield_10201                   Target end
+customfield_13052                   Target ICP 
+customfield_10426                   Target Lifecycle Stage
+customfield_10420                   Target Medium
+customfield_10350                   Target Persona - Primary
+customfield_10362                   Target Persona - Secondary
+customfield_10419                   Target Segment
+customfield_10200                   Target start
+customfield_10273                   Target Users
+customfield_13051                   Target Vertical
+customfield_13199                   Targeted & Operationalized Approved By
+customfield_13198                   Targeted and Operationalized Actual End Date
+customfield_13197                   Targeted and Operationalized Actual Start Date
+customfield_13196                   Targeted and Operationalized End Date
+customfield_13195                   Targeted and Operationalized Start Date
+customfield_10436                   Task SLA
+customfield_10435                   Tax Payment SLA
+customfield_16310                   TDS Amount
+customfield_12770                   TDS Calculated
+customfield_11399                   TDS Deducted
+customfield_11396                   TDS Deductible
+customfield_12090                   TDS Percentage
+customfield_10001                   Team
+customfield_11661                   Team
+customfield_10837                   Teams
+customfield_10602                   Tech Lead
+customfield_10411                   Technical contact
+customfield_10497                   Technical Expertise Rating
+customfield_10360                   Telemarketer
+customfield_10948                   Tempo Logged Hours
+customfield_10947                   Tempo Planned Hours
+customfield_10214                   Tempo Team
+customfield_10564                   test
+customfield_10695                   Test Asset
+customfield_10245                   Test Environment
+customfield_10578                   Test plan
+customfield_10281                   Tester
+customfield_10440                   Ticket Summary
+customfield_11090                   Time
+timespent                           Time Spent
+customfield_10438                   Time to approve normal change
+customfield_10437                   Time to close after resolution
+customfield_10633                   Time to done
+customfield_10221                   Time to first response
+customfield_10869                   Time to First Response - Legal
+customfield_10894                   Time to First Response - Legal (MSA)
+customfield_10220                   Time to resolution
+customfield_10777                   Time to resolution Delivery
+customfield_10584                   Time to review normal change
+timetracking                        Time tracking
+customfield_10468                   Time waiting for support
+customfield_10255                   To Be Discussed
+customfield_13809                   To Do Completion Date
+customfield_12196                   Total Accrued Amount ($)
+customfield_12454                   Total Accrued Hours
+customfield_13055                   Total Activity Cost
+customfield_11925                   Total Amount Invoiced During Period
+customfield_12388                   Total Amount of Purchases During Period
+customfield_12568                   Total Collection Amount
+customfield_12571                   Total Collection Currency Rate
+customfield_12570                   Total Collection Currency Type
+customfield_12569                   Total Collection Date
+customfield_11926                   Total Collection During Period
+customfield_12572                   Total Collection Forex Mark Up
+customfield_10390                   Total Cost (USD)
+customfield_13062                   Total Cost Estimate of Marketing Activity 
+customfield_12322                   Total Earned Amount ($)
+customfield_12456                   Total Earned Hours
+customfield_10249                   Total Estimated Cost
+customfield_10206                   Total forms
+customfield_12573                   Total Invoiced Amount (without tax)
+customfield_10996                   Total No of servers with Not Updated
+customfield_10995                   Total No of servers with Updated Antivirus
+customfield_10998                   Total No of user with not Updated Antivirus
+customfield_10997                   Total No of user with Updated Antivirus
+customfield_12326                   Total Non Accruable Amount ($)
+customfield_12460                   Total Non Accrued Hours
+customfield_12583                   Total OEM Funding Amount ($)
+customfield_12389                   Total OEM payments During Period
+customfield_12324                   Total Planned Amount ($)
+customfield_12458                   Total Planned Hours
+customfield_10488                   Total Project Cost( In $ )
+customfield_13709                   Total Resources
+customfield_12882                   Total vendor amount
+customfield_10678                   Total Working Experience
+customfield_10982                   Trainee
+customfield_10923                   Trainee Count
+customfield_10981                   Trainer
+customfield_10922                   Training Type
+customfield_13179                   Transformation Pillar
+customfield_12189                   Travel/Vendor
+customfield_11078                   Tshirt size
+customfield_10857                   Type
+customfield_10344                   Type of Campaign
+customfield_13568                   Type of Category
+customfield_10349                   Type of Content
+customfield_13542                   Type of Products or Services
+customfield_10739                   Type of Work
+customfield_10749                   Type of work (Read Only)
+customfield_10701                   UAN Number
+customfield_14209                   Under Forecasted
+updated                             Updated
+customfield_10572                   Urgency
+customfield_10455                   Urgency
+customfield_10861                   URL Field
+customfield_14531                   USA - USD per USD
+customfield_13813                   Use Case / Scenario to be Covered
+customfield_10403                   Used by
+customfield_13817                   User count or agent count
+customfield_13160                   Validation Actual End date
+customfield_13159                   Validation Actual Start Date
+customfield_13161                   Validation Approved By
+customfield_13158                   Validation End date
+customfield_13157                   Validation Start Date
+customfield_15067                   Validity(In days)
+customfield_10845                   Value
+customfield_10252                   Value to Customer
+customfield_12618                   Variance in Days
+customfield_13212                   Variance(Amount)
+customfield_13015                   Varience (RCM)
+customfield_13014                   Varience TDS
+customfield_13063                   Varience(GST)
+customfield_13543                   Vendor Document Checklist
+customfield_13545                   Vendor Email	
+customfield_10649                   Vendor Name
+customfield_10433                   Vendor Payment SLA
+customfield_13546                   Vendor Phone No.
+customfield_13578                   Vendor Registration Date
+customfield_10258                   Version
+customfield_11073                   Vertical (Org ICP)
+customfield_11135                   Vertical (Org ICP) Parent
+customfield_10538                   Vote Appeal
+votes                               Votes
+customfield_10868                   Vulnerability
+watches                             Watchers
+customfield_10530                   What Is Feasibility of this Concept
+customfield_10242                   What is your Idea?
+customfield_10535                   What strategic objective does your idea align with?
+customfield_11410                   Whether RCM Applicable?
+customfield_12981                   WHT Amount in USD
+customfield_15200                   Will this initiative be moved to under observation?
+customfield_12420                   Withholding TAX (WHT)
+customfield_10202                   Work category
+customfield_16417                   Work item created forms
+workratio                           Work Ratio
+customfield_11047                   Work Type
+customfield_10583                   Workaround
+customfield_10449                   Workaround
+customfield_10809                   Worked as Additional Implementors
+customfield_10810                   Worked as Apprentice 
+customfield_10807                   Worked as Primary Implementor 
+customfield_10811                   Worked as Project Manager
+customfield_10808                   Worked as Tech Lead
+customfield_13905                   Workflow End Date
+customfield_12851                   Workflow Status
+customfield_10389                   Writing Style
+customfield_10399                   Writing Tone
+customfield_10772                   Year
+customfield_10726                   Years in Service with enreap
+customfield_11019                   Years Of Experience In Automation
+aggregatetimeoriginalestimate       Σ Original Estimate
+aggregateprogress                   Σ Progress
+aggregatetimeestimate               Σ Remaining Estimate
+aggregatetimespent                  Σ Time Spent

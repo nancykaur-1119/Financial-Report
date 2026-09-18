@@ -1,0 +1,5 @@
+node_modules
+static/projects-app/node_modules
+static/projects-app/src
+static/projects-app/public
+api

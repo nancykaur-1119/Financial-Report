@@ -1,0 +1,81 @@
+ISM REPORT — FIELD MAPPING & CALCULATIONS
+==========================================
+Generated for: enreap.atlassian.net
+Last updated : 2026-06-10
+
+FORMAT: Column Name  |  Source  |  Custom Field ID  |  Jira Field Name  |  Calculation
+------------------------------------------------------------------------
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ISM TICKET COLUMNS  (rowSpan — one value per ISM ticket)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ISM Issue              | ISM  | built-in          | key               | Direct field
+Issue Name             | ISM  | built-in          | summary           | Direct field
+Created Date           | ISM  | built-in          | created           | Direct field (formatted DD MMM YYYY)
+PO Date                | ISM  | customfield_16311 | Claim Date        | Direct field (formatted DD MMM YYYY)
+Status                 | ISM  | built-in          | status.name       | Direct field
+Resolution             | ISM  | built-in          | resolution.name   | Direct field
+Service Amount         | ISM  | customfield_10383 | Service Amount    | Direct field (numeric)
+% Billed Till Date     | ISM  | —                 | —                 | CALC: (Sum of all FIN Invoiced Amounts / Service Amount) × 100
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PRJ / AUS COLUMNS  (per linked PRJ-* or AUS-* issue)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Linked Issue               | PRJ/AUS | built-in          | key               | Direct field
+Issue Type                 | PRJ/AUS | built-in          | issuetype.name    | Direct field
+Project Start              | PRJ/AUS | customfield_10800 | Project Start     | Direct field (formatted DD MMM YYYY)
+Project End                | PRJ/AUS | customfield_10801 | Project End       | Direct field (formatted DD MMM YYYY)
+Efforts Planned Hours      | PRJ/AUS | customfield_12458 | Total Planned Hours | Direct field (numeric)
+Billing Rate               | PRJ/AUS | customfield_10942 | Billing Rate      | Direct field (numeric)
+Total Earned Hours         | PRJ/AUS | customfield_12322 | Earned Amount     | Direct field (numeric)
+Hours Consumed Till Date   | PRJ/AUS | —                 | —                 | CALC: Total Earned Hours / Billing Rate
+                           |         |                   |                   |       (customfield_12322 / customfield_10942)
+% Completion Till Date     | PRJ/AUS | —                 | —                 | CALC: (Total Earned Hours / Efforts Planned Hours) × 100
+                           |         |                   |                   |       (customfield_12322 / customfield_12458) × 100
+Unbilled Till Date         | PRJ/AUS | —                 | —                 | CALC: Efforts Planned Hours - Total Earned Hours
+                           |         |                   |                   |       (customfield_12458 - customfield_12322)
+Cumulative Consumed Hours  | PRJ/AUS | customfield_12322 | Earned Amount     | Same as Total Earned Hours
+Updated Remaining Hours    | PRJ/AUS | —                 | —                 | CALC: Efforts Planned Hours - Total Earned Hours
+                           |         |                   |                   |       (customfield_12458 - customfield_12322)
+% Completion April 30,2026 | PRJ/AUS | —                 | —                 | CALC: (Total Earned Hours / Efforts Planned Hours) × 100
+                           |         |                   |                   |       (customfield_12322 / customfield_12458) × 100
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  FIN COLUMNS  (per linked FIN-* issue)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Linked FIN Ticket              | FIN | built-in          | key              | Direct field
+Invoiced Amount USD (Excl Tax) | FIN | customfield_11366 | Invoice Amount   | Direct field (numeric)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  QUICK REFERENCE — CUSTOM FIELD IDs USED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+customfield_10383   Service Amount          (ISM)
+customfield_16311   Claim Date / PO Date    (ISM)
+customfield_10800   Project Start           (PRJ/AUS)
+customfield_10801   Project End             (PRJ/AUS)
+customfield_12458   Total Planned Hours     (PRJ/AUS)
+customfield_10942   Billing Rate            (PRJ/AUS)
+customfield_12322   Earned Amount / Hours   (PRJ/AUS)
+customfield_11366   Invoice Amount          (FIN)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ENV VAR → CUSTOM FIELD MAPPING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SERVICE_AMOUNT_FIELD    = customfield_10383
+EARNED_AMOUNT_FIELD     = customfield_12322
+INVOICE_AMOUNT_FIELD    = customfield_11366
+CLAIM_DATE_FIELD        = customfield_16311
+PROJECT_START_FIELD     = customfield_10800
+PROJECT_END_FIELD       = customfield_10801
+TOTAL_PLANNED_HRS_FIELD = customfield_12458
+BILLING_RATE_FIELD      = customfield_10942

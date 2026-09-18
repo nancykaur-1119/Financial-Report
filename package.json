@@ -1,0 +1,23 @@
+{
+  "name": "forge-projects-ui",
+  "version": "1.0.0",
+  "description": "Forge Custom UI — lists all Jira projects with a custom React interface",
+  "scripts": {
+    "dev": "concurrently \"npm run api\" \"npm run ui\"",
+    "api": "node api/server.js",
+    "ui": "cd static/projects-app && npm run dev",
+    "install:all": "npm install && cd static/projects-app && npm install",
+    "export": "node scripts/export-excel.mjs"
+  },
+  "dependencies": {
+    "@forge/api": "^7.2.1",
+    "@forge/resolver": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
